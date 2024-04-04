@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do App By Nikhil Shinde</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1><a href="#" id="app-name"></a> To-Do App <img src="img/icon.png" alt="image" id="img1"></h1>
+        <p class="app-description">Your personalized task management solution for efficient and productive days.</p>
+        <div class="input-container">
+            <input type="text" id="newTask" placeholder="Enter Your Task...">
+            <button id="btn" onclick="addTask()">Add</button>
+        </div>
+        <div class="lists-container">
+            <div class="list" id="pendingTasks">
+                <h2>Pending Tasks</h2>
+                <ul id="pendingList"></ul>
+            </div>
+            <div class="list" id="completedTasks">
+                <h2>Completed Tasks</h2>
+                <ul id="completedList"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="credit">
+        <p>Developed by <a href=https://www.linkedin.com/in/nikhil-shinde-95b9a9226/ target="_blank">Nikhil Shinde</span></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
