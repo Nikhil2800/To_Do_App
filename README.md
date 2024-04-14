@@ -2,6 +2,8 @@ ToDo App 📝
 
 To-Do App designed for efficient task management and productivity. It provides a clean and interactive interface for organizing your tasks, making it easy to stay on top of your to-do list.
 
+Netlify Link : https://thunderous-flan-87d9cf.netlify.app 
+
 Features : 
 Task Management: Easily add, edit, mark as complete, and delete tasks.
 Two Lists: Tasks are divided into "Pending Tasks" and "Completed Tasks" for better organization.
